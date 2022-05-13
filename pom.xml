@@ -53,4 +53,14 @@
   		<version>3.1.0</version>
   	</dependency>
   </dependencies>
+	
+	<distributionManagement>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://65.2.80.244:9036/vickydevops/repository/bookstore/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 </project>
